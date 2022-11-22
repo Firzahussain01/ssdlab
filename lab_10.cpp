@@ -18,6 +18,10 @@ class Payment{
 	int payment;
 	
 	public:
+	Payment(){
+	amount = 0;
+	payment = 0;
+	}
 		void setamount(int s){
 			amount = s;
 		}
