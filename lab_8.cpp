@@ -7,7 +7,10 @@ private:
     double rate;
 
 public:
-
+Plan(){
+rate = 0;
+}
+	
     void getrate()
 	{
         rate=10;
