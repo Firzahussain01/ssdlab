@@ -53,6 +53,11 @@ class Cash :public Payment{
 	int amount;
 	int payment;
 	public:
+	
+	Cash(){
+	amount = 0;
+	payment = 0;	
+	}
 		string display2(){
 			
 			 cout<<"\n Payment via Cash:";
@@ -62,6 +67,10 @@ class ATM_Card :public Payment{
 	int amount;
 	int payment;
 	 public:
+	ATM_Card(){
+	amount = 0;
+	payment = 0;	
+	}
 	 	
 		string display3(){
 			
@@ -72,6 +81,10 @@ class Online_Transaction :public Payment{
 	int amount;
 	int payment;
 		public:
+	Online_Transaction(){
+	amount = 0;
+	payment = 0;	
+	}
 		string display4()
 		{
 			cout<<"\n Payment via Online_Transaction:";	
